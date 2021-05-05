@@ -60,7 +60,7 @@ class CommentController extends Controller
         $comment->save();
         return redirect('/contacts')->with('success', 'Commentsss saved!');
     } */
-
+//test
     public function store(Request $request, Contact $contact)
     {
         $validator = $this->validateComment();
